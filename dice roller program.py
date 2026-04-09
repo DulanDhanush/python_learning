@@ -48,4 +48,8 @@ for line in range(5):
 
 for die in dice:
     total += die
+
+
+
+    
 print(f"total: {total}")
