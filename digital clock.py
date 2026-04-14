@@ -29,7 +29,6 @@ class DigitalClock(QWidget):
         font_family = QFontDatabase.applicationFontFamilies(font_id)[0]
         my_font = QFont(font_family, 150)
         
-        # It's good practice to check if the font loaded correctly
         if font_id != -1:
             font_family = QFontDatabase.applicationFontFamilies(font_id)[0]
             my_font = QFont(font_family, 150)
@@ -48,6 +47,7 @@ class DigitalClock(QWidget):
 
 
 if __name__ == "__main__":
+    
     app = QApplication(sys.argv)
     clock = DigitalClock()
     clock.show()
