@@ -90,7 +90,7 @@ Even if you don’t run the code, reading through the commits shows:
 
 - When to use for vs while
 
-- - How to catch errors with try/except
+- How to catch errors with try/except
 
 - The absolute basics of object‑oriented programming
 
