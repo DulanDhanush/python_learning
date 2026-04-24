@@ -74,7 +74,7 @@ The projects are organised by week, reflecting growing complexity.
    ```bash
    pip install pyqt5 requests
    ```
-4.**Run any script**
+4. **Run any script**
    ```bash
    python calculator.py
    ```
